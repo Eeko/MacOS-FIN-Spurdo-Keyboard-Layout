@@ -1,6 +1,8 @@
-# Improved Swedish Keyboard Layout for OS X
+# FIN-Spurdo Keyboard layout for MacOS
 
 ## About
+
+A keyboard layout modified from [PetorSFZ's "Swedish SFZ" layout](https://github.com/PetorSFZ/MacOSX-Improved-Swedish-Keyboard-Layout)
 
 This is my personal keyboard layout modified from 'Swedish Pro' using Ukelele. The main goal is to fix my annoyances with the standard layout, mostly making it more like standard Windows/Linux layouts which I find better for programming.
 
@@ -11,30 +13,16 @@ Place files in
 	/Library/Keyboard Layouts (All users)
 	~/Library/Keyboard Layouts (Only current user)
 	
-and restart. You can then choose the 'Swedish - SFZ' layout from System Preferences.
+and restart. You can then choose the 'FIN-Spurdo' layout from System Preferences.
 
-## Changes
+## Changes from Swedish SFZ
 
-### {, } on 7 and 0.
+### €-symbol under AltGr+5
 
-Simply the standard behaviour on Windows and Linux.
+Having the symbol at the same place makes it more compatible with my personal QMK keyboard layer configuration.
 
-### \ on + and | on <
+### ∞-symbol under Shift+4
 
-Like above simply the standard behaviour on Windows and Linux.
+Had to put something under the old €-place. Should keep compatibility with most custom MacOS shortcuts requiring this symbol to be accessible.
 
-### ≤, <, >, ≥ on 7, 8, 9, 0
-
-Shift + Option + 7,8,9,0 writes ≤, <, >, ≥ respectively. This change is mostly because ≤ is no longer reachable on the < key. It also hinders you from trying to access {, } the normal OS X way, which in my case is a feature.
-
-### ≈, ≠ on 6
-
-These keys could no longer be reached so I placed them on 6. It previously only duplicated symbols from the § key.
-
-### ™ on <
-
-Having only ≤ available on < seemed a bit weird, so I opted to replace it with the ™ symbol.
-
-### (Incomplete) Exponents on ^ + key
-
-For example, pressing ^ and then 2 writes ². The reason this is incomplete is because I couldn't find superscript unicode codes for all characters. If you can find a complete list I would really appreciate if you sent it to me, or even better, add them to layout and make a pull request. :)
+### New layout icon
