@@ -4,7 +4,11 @@
 
 A keyboard layout modified from [PetorSFZ's "Swedish SFZ" layout](https://github.com/PetorSFZ/MacOSX-Improved-Swedish-Keyboard-Layout)
 
-This is my personal keyboard layout modified from 'Swedish Pro' using Ukelele. The main goal is to fix my annoyances with the standard layout, mostly making it more like standard Windows/Linux layouts which I find better for programming.
+As described by PetorSFZ:
+
+"This is my personal keyboard layout modified from 'Swedish Pro' using Ukelele. The main goal is to fix my annoyances with the standard layout, mostly making it more like standard Windows/Linux layouts which I find better for programming."
+
+In addition, I made some changes to make this layout even more alike to standard Windows FIN/SWE layout. Notably by moving the €-symbol to where it should be. This was done to ensure compatibility with my custom QMK keyboard and it's shortcut layers.
 
 ## Installation
 
